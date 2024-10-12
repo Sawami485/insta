@@ -5,7 +5,7 @@ const AdminPanel = () => {
 
     useEffect(() => {
         const fetchUsers = async () => {
-            const response = await fetch('http://localhost:5000/api/users');
+            const response = await fetch('https://insta-kw5z.onrender.com/api/users');
             const data = await response.json();
             setUsers(data);
         };
