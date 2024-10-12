@@ -1,0 +1,155 @@
+/* Main container for the login */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+.login-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 350px; /* Limit width for larger screens */
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 175px; /* Adjusted for smaller screens */
+    margin-bottom: 20px;
+}
+
+.login-input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.or-section {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.or-text {
+    margin: 0 10px;
+    font-weight: bold;
+    color: #8e8e8e;
+}
+
+.login-facebook {
+    background-color: transparent;
+    color: #385185;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin: 10px 0;
+}
+
+.forgot-password {
+    color: #00376b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.signup-box {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    width: 100%;
+    max-width: 350px; /* Limit width for larger screens */
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+}
+
+.app-download-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.app-button {
+    width: 120px;
+    margin: 10px 5px; /* Adjusted margin for smaller screens */
+}
+/* User note for followers */
+.follower-note {
+    font-size: 14px;
+    color: #333;
+    margin-top: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #dbdbdb;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+}
+.thank-you-message {
+    margin-top: 10px;
+    color: green; /* Change this to your preferred color */
+    font-weight: bold;
+}
+
+/* Media query for mobile view */
+@media (max-width: 600px) {
+    .login-box, .signup-box {
+        width: 100%;
+        padding: 30px 20px; /* Reduce padding for smaller screens */
+    }
+
+    .logo {
+        width: 150px; /* Adjust logo size for smaller screens */
+    }
+
+    .login-input, .login-button, .login-facebook {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 8px;
+    }
+
+    .app-button {
+        width: 100px; /* Reduce button size for smaller screens */
+        margin: 5px; /* Less margin for better spacing on small screens */
+    }
+
+    .forgot-password {
+        font-size: 10px; /* Smaller font size for mobile */
+    }
+}
